@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$schemaVersion": "2020-12",
+    "$id": "https://capri-project.com/model/steel/Coil.json",
+    "title": "Coil",
+    "description": "CAPRI model for a steel coil",
+    "type": "object",
+    "x-ngsi": {
+        "uri-prefix": "https://capri-project.com/model/steel/"
+    },
+    "x-extends": "https://capri-project.com/model/steel/Item",
+    "allOf": [
+        {
+            "$ref": "./Item.json"
+        },
+        {
+        "properties": {
+            "thickness": { "type": "number", "description": "Coil thickness in mm. Model:'https://schema.org/height'."},
+            "width": { "type": "number", "description": "Coil width in mm. Model:'https://schema.org/height'."}
+        } 
+    }]
+    ,
+    "required": [
+        "id",
+        "type",
+        "productId",
+        "dateObserved"
+    ]
+
+}
