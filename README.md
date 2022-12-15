@@ -2,6 +2,8 @@
 
 A data model for the steel production, loosely based on [SAREF4INMA](https://saref.etsi.org/saref4inma) and [NGSI-LD](https://www.etsi.org/deliver/etsi_gs/CIM/001_099/009/01.06.01_60/gs_CIM009v010601p.pdf).
 
+Zenodo link: [![DOI](https://zenodo.org/badge/577774348.svg)](https://zenodo.org/badge/latestdoi/577774348)
+
 ## High-level model
 
 The main classes are
